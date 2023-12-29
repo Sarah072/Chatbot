@@ -5,8 +5,8 @@ const cors = require('cors');
 const app = express();
 const port = 5000;
 
-const projectId = 'interiorx-392114'; // Replace with your Dialogflow project ID
-const sessionId = '12349'; // Replace with any string you prefer, used to track the session
+const projectId = 'interiorx-3924'; // Replace with your Dialogflow project ID
+const sessionId = '149'; // Replace with any string you prefer, used to track the session
 
 // Set the environment variable for the credentials
 process.env.GOOGLE_APPLICATION_CREDENTIALS = './chatbot/interiorx-392114-02eba940fdd8.json';
